@@ -1,0 +1,40 @@
+{
+  "name": "fusion-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@lxe/fusion-cli": "^2.0.0",
+    "@types/react-dom": "^16.8.4",
+    "@types/react": "^16.8.16",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^1.7.0",
+    "baseui": "^6.16.0",
+    "csstype": "^2.6.4",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint": "^5.16.0",
+    "fusion-core": "^1.10.6",
+    "fusion-plugin-styletron-react": "^2.6.1",
+    "fusion-react": "^2.0.0",
+    "fusion-tokens": "^1.1.1",
+    "prettier": "^1.17.0",
+    "react-dom": "^16.8.6",
+    "react": "^16.8.6",
+    "simple-progress-webpack-plugin": "^1.1.2",
+    "styletron-react": "^5.0.0",
+    "ts-loader": "^5.4.5",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "start": "fusion dev",
+    "dev": "yarn start",
+    "build": "fusion build --production --no-brotli --no-zopfli --no-svgo --no-minify",
+    "build-production": "yarn build",
+    "start-production": "fusion start"
+  }
+}
