@@ -1,5 +1,7 @@
 # fusion-typescript-example
 
+[![Edit fusion-ts](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/lxe/fusion-typescript-example/tree/master/?fontsize=14&module=%2Fsrc%2Fcomponents%2FRoot.tsx)
+
 [Fusion.JS](https://fusionjs.com) + [BaseUI](https://baseweb.design) + [TypeScript](https://www.typescriptlang.org/)
 
 ## Features
